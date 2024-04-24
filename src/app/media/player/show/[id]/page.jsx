@@ -4,7 +4,7 @@ import HandleSeasons from "@/components/HandleSeasons";
 const ShowPlayer = async ({ params }) => {
   const showInfo = await getShowInfo(params.id);
 
-  // src={`https://vidsrc.xyz/embed/tv?tmdb=${params.id}`}
+  // src={`https://player.autoembed.cc/embed/tv?tmdb=${params.id}`}
 
   return (
     <div className="text-white h-[calc(100vh-7rem)]">
