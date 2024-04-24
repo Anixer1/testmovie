@@ -12,7 +12,7 @@ const HandleSeasons = ({ show }) => {
   const [displayedSeason, setDisplayedSeason] = useState();
 
   const [mediaUrl, setMediaUrl] = useState(
-    `https://vidsrc.xyz/embed/tv?tmdb=${show.id}&season=1&episode=1`
+    `https://player.autoembed.cc/embed/tv?tmdb=${show.id}&season=1&episode=1`
   );
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const HandleSeasons = ({ show }) => {
 
   const handleEpisodeClick = (seasonNumber, episodeNumber) => {
     setMediaUrl(
-      `https://vidsrc.xyz/embed/tv?tmdb=${show.id}&season=${seasonNumber}&episode=${episodeNumber}`
+      `https://player.autoembed.cc/embed/tv?tmdb=${show.id}&season=${seasonNumber}&episode=${episodeNumber}`
     );
 
     console.log(mediaUrl);
