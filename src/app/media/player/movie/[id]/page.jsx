@@ -3,7 +3,7 @@ import MediaPlayer from "@/components/MediaPlayer";
 
 const MoviePlayer = async ({ params }) => {
   const movieInfo = await getMovieInfo(params.id);
-  const movieURL = `https://vidsrc.xyz/embed/movie?tmdb=${params.id}`
+  const movieURL = `https://player.autoembed.cc/embed/movie?tmdb=${params.id}`
 
   return (
     <div className="text-white h-[100vh]">
