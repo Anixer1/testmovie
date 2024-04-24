@@ -17,8 +17,8 @@ const Card = ({ media }) => {
   // {
   //   const corsURL = 'https://proxy-ibmasyzzya-uc.a.run.app/'
   //   const urlToCheck = media.first_air_date
-  //   ? `${corsURL}https://vidsrc.xyz/embed/tv?tmdb=${media.id}`
-  //   : `${corsURL}https://vidsrc.xyz/embed/movie?tmdb=${media.id}`
+  //   ? `${corsURL}https://player.autoembed.cc/embed/tv?tmdb=${media.id}`
+  //   : `${corsURL}https://player.autoembed.cc/embed/movie?tmdb=${media.id}`
 
   //   const fetchData = async () => 
   //   {
